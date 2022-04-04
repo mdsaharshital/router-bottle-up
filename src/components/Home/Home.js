@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import useReview from '../hook/useReview';
 import ReviewsCard from '../ReviewsCard/ReviewsCard';
 
@@ -6,7 +7,9 @@ const Home = () => {
     const imgUrl =`https://images.unsplash.com/photo-1625708458528-802ec79b1ed8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80`;
 
     const [reviews, setReviews] = useReview();
-    
+
+    const navigate = useNavigate();
+
     return (
         <div className='container mx-auto h-screen p-3'>
             <div className="grid md:grid-cols-2 my-4">
@@ -23,12 +26,13 @@ const Home = () => {
                     <img src={imgUrl} className='rounded-xl' alt="" />
                 </div>
             </div>
+            <h2 className="text-2xl text-purple-400 font-bold">Reviews</h2>
             <div className="grid md:grid-cols-3 gap-4 my-8">
                 {
                     reviews.map( review => <ReviewsCard key={review.id} reviewsAll={review}/>).slice(0,3)
                 }
             </div>
-                <button className='py-2 px-3 bg-purple-400 my-4 rounded text-white cursor-pointer mx-auto'>See All Reviews</button>
+                <button onClick={() => navigate('/review')}  className='py-2 px-3 bg-purple-400 my-4 rounded text-white cursor-pointer mx-auto'>See All Reviews</button>
         </div>
     );
 };
