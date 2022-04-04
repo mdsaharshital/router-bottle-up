@@ -3,8 +3,8 @@ import MyLineCharts from '../MyLineCharts/MyLineCharts';
 
 const Dashboard = () => {
     return (
-        <div>
-            <h2>Hello dashboard</h2>
+        <div className='mx-auto p-3 container' >
+            <h2 className='text-xl my-4 font-bold'>Analyze Our Statement</h2>
             <MyLineCharts></MyLineCharts>
         </div>
     );

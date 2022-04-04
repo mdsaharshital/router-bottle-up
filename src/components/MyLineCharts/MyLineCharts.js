@@ -41,10 +41,10 @@ const MyLineCharts = () => {
         }
     ];
     return (
-        <div className='grid  md:grid-cols-2 my-6'>
+        <div className='grid  md:grid-cols-2 my-6 mx-auto'>
         <div className="">
             <h2 className='text-purple-400 font-bold'>Month wise sell</h2>
-            <LineChart width={400} height={300} data={data}>
+            <LineChart className='mx-auto' width={400} height={300} data={data}>
                 <Line dataKey={'sell'}></Line>
                 <XAxis dataKey={'month'}/>
                 <YAxis/>
@@ -54,6 +54,7 @@ const MyLineCharts = () => {
         <div className="">
             <h2 className='text-purple-400 font-bold'> Investment VS Revenue</h2>
         <AreaChart
+        className='mx-auto'
         width={400}
         height={300}
         data={data}
