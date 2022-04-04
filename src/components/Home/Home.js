@@ -14,12 +14,13 @@ const Home = () => {
         <div className='container mx-auto h-screen p-3'>
             <div className="grid md:grid-cols-2 my-4">
                 <div className="flex flex-col justify-center text-center mx-auto my-4">
-                    <h1 className="text-5xl font-bold text-purple-400 text-left">
-                        Get Bottle up Now!
-                    </h1>
-                    <h1 className="text-5xl font-bold text-purple-400 text-left">
+                <h1 className="text-5xl font-bold  text-left my-2 ">
                        Be Smart!
                     </h1>
+                    <h1 className=" my-2 text-5xl font-bold text-purple-400 text-left">
+                        Get Bottle up Now!
+                    </h1>
+                    <p className='text-left my-2 text-slate-500'>This is a very niche product based bottle selling website. We love to solve problems of ugly bottle to change it with different stylish bottle which goes with you.</p>
                     <button className='py-2 px-3 bg-purple-400 my-4 rounded text-white cursor-pointer w-1/3'>Buy Now!</button>
                 </div>
                 <div className="mx-auto my-4 ">
@@ -33,7 +34,6 @@ const Home = () => {
                 }
             </div>
                 <button onClick={() => navigate('/review')}  className='py-2 px-3 bg-purple-400 my-4 rounded text-white cursor-pointer mx-auto'>See All Reviews</button>
-                <h1>Questions are answered in blog section</h1>
         </div>
     );
 };
