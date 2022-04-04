@@ -1,0 +1,38 @@
+[
+    {
+      "id": "624b18c28ba9fce533a7ec9b",
+      "name": "Schultz Benson",
+      "review": "This is awesome bottle with great value",
+      "rating": 4.9
+    },
+    {
+      "id": "624b18c2b430bc99d445dd0c",
+      "name": "Golden Padilla",
+      "review": "This  bottle is amazing",
+      "rating": 4.3
+    },
+    {
+      "id": "624b18c2dc97b980e5c00884",
+      "name": "Browning Luna",
+      "review": "I'm in love with this is bottle with",
+      "rating": 5
+    },
+    {
+      "id": "624b18c25f0d9eb203766a04",
+      "name": "Phillips Stevenson",
+      "review": "This bottle is fantastic",
+      "rating": 4.7
+    },
+    {
+      "id": "624b18c2e5590f0ee25b37f3",
+      "name": "Pickett Gamble",
+      "review": "Never saw such a good bottle. i'm loveing it",
+      "rating": 4.4
+    },
+    {
+      "id": "624b18c215c0fe122c0a9d0e",
+      "name": "Janice Welch",
+      "review": "What a amazing piece of bottle this is!",
+      "rating": 4.9
+    }
+  ]
