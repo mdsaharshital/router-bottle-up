@@ -33,6 +33,7 @@ const Home = () => {
                 }
             </div>
                 <button onClick={() => navigate('/review')}  className='py-2 px-3 bg-purple-400 my-4 rounded text-white cursor-pointer mx-auto'>See All Reviews</button>
+                <h1>Questions are answered in blog section</h1>
         </div>
     );
 };

@@ -1,8 +1,7 @@
 import React from 'react';
 
 const ReviewsCard = ({reviewsAll}) => {
-    const {name,id,rating,review} = reviewsAll;
-    console.log(reviewsAll);
+    const {name,rating,review} = reviewsAll;
     return (
         <div>
             <div className='bg-purple-200 h-40 p-3 rounded-lg'>
