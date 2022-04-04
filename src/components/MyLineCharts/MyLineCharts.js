@@ -41,7 +41,7 @@ const MyLineCharts = () => {
         }
     ];
     return (
-        <div className='grid  md:grid-cols-2'>
+        <div className='grid  md:grid-cols-2 my-6'>
         <div className="">
             <h2 className='text-purple-400 font-bold'>Month wise sell</h2>
             <LineChart width={400} height={300} data={data}>
